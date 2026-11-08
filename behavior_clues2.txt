@@ -1,0 +1,35 @@
+=== .site-pre-loader ===
+tTimeout(()=>{window.scrollTo(0,0),bu()},150));const xs=document.querySelector(".site-pre-loader"),ul=document.querySelector(".number-count"),Lo=document.getElementById("loader-canvas"),f_=document.getElementById("loader");if(!ta)xs&&(xs.style.display="none",xs.style.visibility="hidden",xs.style.opacity="0",xs.style.pointerEvents="none"),
+
+=== .menu-2-bar ===
+,{visibility:"hidden",pointerEvents:"none"})}})}),Cp=!1}document.querySelector(".menu-2-bar").addEventListener("click",()=>{Cp?Ov():UP()});const FP=document.querySelectorAll(".menu-navigate-scroll a");FP.forEach(r=>{r.addEventListener("click",()=>{$.to(".plus-rotates",{scale:0,rotation:0,duration:.3,ease:"power3.out"}),$.to(r.querySelecto
+
+=== .navigation-menu ===
+duration:.8,stagger:.06,ease:"power4.inOut",onComplete:()=>{bo.play(0)}}),$.to(".navigation-menu",{visibility:"visible",pointerEvents:"auto"},0),Cp=!0}function Ov(){bo.reverse(),$.delayedCall(.45,()=>{$.to(".bar-bgs",{scaleX:0,transformOrigin:"left center",duration:.8,stagger:.06,ease:"power4.inOut",onComplete:()=>{$.set(".navigation-menu
+
+=== .modal-contact-us ===
+()});const oM=document.getElementById("contactopen"),mu=document.querySelector(".modal-contact-us"),lM=document.querySelector(".close-sidebar-contact");let gu=!1;function cM(){gu||(gu=!0,ci.stop(),$.set(mu,{visibility:"visible"}),$.fromTo(mu,{clipPath:"inset(100% 0% 0% 0%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:1.2,ease:"power4.inOut"}
+
+=== #contactopen ===
+NF
+
+=== .case-study-side-bar ===
+tiplier:1,easing:r=>Math.min(1,1.001-Math.pow(2,-10*r)),prevent:r=>!!r.closest(".case-study-side-bar")});ci.stop();gb?(ci.scrollTo(0,{immediate:!0,force:!0}),ci.start()):setTimeout(()=>{ci.start()},6e3);ci.on("scroll",Ye.update);$.ticker.add(r=>{ci.raf(r*1e3)});$.ticker.lagSmoothing(0);document.querySelectorAll(".active-animate, .menu-nav
+
+=== .custom-cursor ===
+timeScale:1,duration:1.2,ease:"power3.out"})});const Sa=document.querySelector(".custom-cursor");Sa&&window.innerWidth>800&&(window.addEventListener("mousemove",r=>{Sa.style.left=`${r.clientX}px`,Sa.style.top=`${r.clientY}px`,Sa.style.opacity="1"}),window.addEventListener("mouseleave",()=>{Sa.style.opacity="0"}),window.addEventListener("m
+
+=== #fluid2 ===
+NF
+
+=== loader-canvas ===
+loader"),ul=document.querySelector(".number-count"),Lo=document.getElementById("loader-canvas"),f_=document.getElementById("loader");if(!ta)xs&&(xs.style.display="none",xs.style.visibility="hidden",xs.style.opacity="0",xs.style.pointerEvents="none"),ul&&(ul.style.display="none",ul.style.opacity="0"),Lo&&(Lo.style.display="none"),f_&&(f_.s
+
+=== bgMusic ===
+ion:4,ease:"power1.inOut",repeat:-1,yoyo:!0});const Sr=document.getElementById("bgMusic"),Zs=document.querySelector(".sound-wave");let Pl=!1,g_=!1;Sr.loop=!0;Sr.volume=0;for(let r=0;r<40;r++){const e=document.createElement("div");e.classList.add("bar"),e.style.animationDuration=`${Math.random()*.5+.2}s`,e.style.animationDelay=`${Math.rand
+
+=== Lenis ===
+mentById(f.slice(1)):document.querySelector(f),g||(f==="#top"?f=0:console.warn("Lenis: Target not found",f))):f instanceof HTMLElement&&f?.nodeType&&(g=f),g){if(this.options.wrapper!==window){const b=this.rootElement.getBoundingClientRect();d-=this.isHorizontal?b.left:b.top}const _=g.getBoundingClientRect(),m=getComputedStyle(g),p=this.is
+
+=== ScrollTrigger.registerPlugin ===
+NF
